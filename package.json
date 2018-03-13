@@ -1,0 +1,32 @@
+{
+	"name": "postprocessing-example-obj",
+	"private": true,
+	"version": "0.0.0",
+	"description": "A post processing example.",
+	"main": "build/postprocessing-example-obj.js",
+	"module": "src/index.js",
+	"license": "Zlib",
+
+	"author": {
+		"name": "Raoul van Rüschen",
+		"email": "vanruesc@outlook.de"
+	},
+
+	"scripts": {
+		"test": "webpack"
+	},
+
+	"dependencies": {
+		"delta-controls": "1.x.x",
+		"postprocessing": "4.x.x",
+		"three": "x.90.x"
+	},
+
+	"devDependencies": {
+		"webpack": "4.x.x",
+		"webpack-cli": "2.x.x",
+		"babel-loader": "7.x.x",
+		"babel-core": "6.x.x",
+		"babel-preset-env": "1.x.x"
+	}
+}
